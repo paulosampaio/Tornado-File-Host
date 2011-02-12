@@ -1,0 +1,17 @@
+input.button, button.button {
+    margin-right: 4px;
+    padding: 4px 1px;
+}
+
+.form input[type=text]:after, .form input[type=password]:after, .form input[type=email]:after, .form input[type=time]:after, .form .ui-date:after, .form textarea:after, .form .ui-select:after, .form .ui-file:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.main-content > header {
+    height: 16px;
+}
